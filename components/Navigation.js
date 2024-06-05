@@ -1,12 +1,25 @@
 import React from 'react';
+import Link from 'next/link'; // for internal linking
 
-const Welcome = () => {
+const Navigation = () => {
     return (
-        <div className="welcome">
-            <h1>Welcome to my Portfolio!</h1>
-            <p>I'm a passionate [Your field] with [brief description of yourself].</p>
-        </div>
+        <nav>
+            <ul>
+                <li>
+                    <Link href="/">Home</Link>
+                </li>
+                <li>
+                    <Link href="/about">About</Link>
+                </li>
+                <li>
+                    <Link href="/projects">Projects</Link>
+                </li>
+                <li>
+                    <Link href="/contact">Contact</Link>
+                </li>
+            </ul>
+        </nav>
     );
 };
 
-export default Welcome;
+export default Navigation;
