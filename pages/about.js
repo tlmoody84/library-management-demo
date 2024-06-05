@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
+import Image from 'next/image'
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
                 <p>I have a [Bachelor's] degree in [Criminal Justice] from [Fayetteville State University] along with a [Full Stack Developer Certificate] from [CodeEx Academy].</p>
                 <p>My skills include [JavaScript, CSS, Bootstrap, HTML, React, and NodeJS].</p>
                 <p>I have [2] years of experience in [frontend and backend of web applications].</p>
-                {/* <img src="/images/your-image.jpg" alt="Your Photo" />  // Assuming image is in public folder */}
+                <Image src="next/image img_1535" alt="My Photo" />  
             </div>
         </div>
     );
