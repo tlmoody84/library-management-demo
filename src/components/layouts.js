@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Library Management App",
   description:
-    "Our wonderful library management system that manages our library.",
+    "Tiffany's Portfolio",
 };
 
 export default function RootLayout({ children }) {
@@ -17,19 +17,19 @@ export default function RootLayout({ children }) {
         <header className="w-100">
           <nav className="flex justify-center w-100 ">
             <Link
-              className="m-1 text-emerald-500 hover:text-emerald-700"
+              className="m-1 text-red-500 hover:text-blue-700"
               href="/"
             >
               Home
             </Link>
             <Link
-              className="m-1 text-emerald-500 hover:text-emerald-700"
+              className="m-1 text-red-500 hover:text-blue-700"
               href="/pages/management"
             >
               Manage Library
             </Link>
             <Link
-              className="m-1 text-emerald-500 hover:text-emerald-700"
+              className="m-1 text-red-500 hover:text-blue-700"
               href="/pages/about"
             >
               About
