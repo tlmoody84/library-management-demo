@@ -1,7 +1,14 @@
-// "use client";
-// import React from "react";
-// import { useState } from "react";
+"use client";
+import React from "react";
+import { useState } from "react";
 
+
+
+export default function AboutPage() {
+    return (
+      <div>About Page</div>
+    )
+  }
 
 // export default function ManagementPage() {
 //     const [count, setCount] = useState(0);
