@@ -1,6 +1,6 @@
 import React from 'react';
-import Welcome from '../components/Welcome';
-import Navigation from '../components/Navigation';
+import Welcome from '../../components/Welcome';
+import Navigation from '../../components/Navigation';
 
 const Home = () => {
     return (
