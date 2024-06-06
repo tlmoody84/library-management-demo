@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <header>
           <nav>
-            <Link href="/">welcome</Link>
-            <Link href="/">home</Link>
+            <Link href="/welcome">welcome</Link>
+            <Link href="/home">home</Link>
             <Link href="/about">about</Link>
             <Link href="/projects">projects</Link>
             <Link href="/contact">contacts</Link>
