@@ -1,4 +1,5 @@
 import React from 'react';
+import welcome from '../../components/welcome';
 
 const Welcome = () => {
     return (

@@ -1,12 +1,11 @@
 import React from 'react';
-import navigation from '../..Navigation/components/';
+import Navigation from '../../components/navigation';
 import Image from 'next/image'
-
 
 const About = () => {
     return (
         <div>
-            <navigation />
+            <Navigation />
             <div className="about">
                 <h2>About Me</h2>
                 <p>I have a Bachelor's degree in Criminal Justice from Fayetteville State University along with a Full Stack Developer Certificate from CodeEx Academy.</p>
