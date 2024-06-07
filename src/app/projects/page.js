@@ -1,6 +1,5 @@
 import React from 'react';
-// import Navigation from '../../components/Navigation';
-// import Image from 'next/image';
+
 
 const projects = [
   { title: 'Breastfeeding-with-Tiffany',
