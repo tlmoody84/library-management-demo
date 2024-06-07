@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         {children}
-        <footer></footer>
+        <footer className="text-center">&copy; My Portfolio</footer>
         </body>
     </html>
   );

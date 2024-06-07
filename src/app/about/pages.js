@@ -1,6 +1,6 @@
 import React from 'react';
-import Navigation from '../../components/Navigation';
-import Image from 'next/images';
+// import Navigation from '../../components/Navigation';
+import Image from 'next/image';
 
 const About = () => {
     return (
