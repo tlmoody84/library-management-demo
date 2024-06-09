@@ -2,7 +2,7 @@ import React from 'react';
 
 import Image from 'next/image';
 
-const About = () => {
+const about = () => {
     return (
         <div>
             <navigation />
@@ -22,4 +22,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default about;
